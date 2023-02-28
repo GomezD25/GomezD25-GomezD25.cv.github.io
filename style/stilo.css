@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,600;1,700&family=Yellowtail&display=swap');*{
+
+    font-family: "titillium web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../multimedia/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff
+}
+.inicio .parte1section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .parte1section header{
+    padding: 30px;
+}
+/** estilos generales**/
+.titulo-seccion{
+    font-family:"yellowtail";
+    font-size: 1.5rem;
+}
+/**barra menu**/
+.inicio .parte1section header nav {
+    position: fixed;
+    margin: left 30px;
+    background-color: #03a9f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99 ;
+    display: none;
+}
+.inicio .parte1section header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .parte1section header .logo{
+    font-weight: bold;
+    font-size: 2.5rem ;
+    font-family: "yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+.inicio .parte1section header .logo .logoColor{
+    color: rgb(0, 255, 0);
+    font-family: "yellowtail";
+
+}
+.inicio .parte1section header .barranav{
+    position: fixed;
+    background-color: #03a9f4;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s; 
+}
+.inicio .parte1section header .barranav:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio  .parte1section .infor{
+    padding-bottom: 130px ;
+}
+.inicio .parte1section .infor h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .parte1section .infor h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .parte1section .foto{
+    position: relative;
+
+}
+.inicio .parte1section .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #03a9f4;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%);
+}
+
+/** seccion sobre mi**/
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .parte2{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .parte2 h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .parte2 .especial{
+    color: #03a9f4;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .parte2 p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;   
+}
+.sobremi .parte2 .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .parte2 .fila .col{
+    width: 30%;
+}
+.sobremi .parte2 .fila .col i{
+    color: #03a9f4;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #03a9f4;
+    line-height:  40px; ;
+    border-radius: 45%;
+}
+.sobremi .parte2 .fila .col span{
+    display: block;
+    font-weight: bold;
+
+}
+/** Seccion historial**/
+.historial{
+    
+    background-color:#e6e6e6 ;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.historial.parte3{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.historial .parte3 h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.historial .parte3 .infor{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.historial .parte3 .infor .col{
+    width: 50%;
+}
+.historial .parte3 .infor .col .titulo{
+    display: inline-block;
+    color: #03a9f4;
+    font-weight: bold;
+    border: 2px solid #03a9f4;
+    padding: 10px;
+}
+.historial .parte3 .infor .col .table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.historial .parte3 .infor .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.historial .parte3 .infor .col table h4{
+    margin-top: 10px;
+}
+.historial .parte3 .infor .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.historial .parte3 .infor .col table p{
+    font-size: 14px;
+}
+.historial .parte3 .infor .col table .descripcion{
+    border-left: 1px solid #bab9b9; 
+    padding-left: 10px ;
+ }
+ /**Contacto**/
+ .contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+ }
+.contacto .parte4{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .parte4 h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .parte4 .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .parte4 .fila .col{
+    margin-top: 50px;
+}
+.contacto .parte4 .fila .col h2{
+    color: #03a9f4;
+}
+/** Ventana emergente**/
+.modal_cont {
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+button{
+    background-color: #03a9f4;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.modal_cont .modal {
+    background-color: #e6e6e6;
+    width: 90%;
+    max-width:  100%; 
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.modal_cont .modal h2{
+    font-family:"yellowtail";
+    font-size: 1.5rem;
+}
+
