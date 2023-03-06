@@ -1,3 +1,3 @@
-# GomezD25-GomezD25.cv.github.io
+# GomezD25.github.io
 proyecto cv
 cv
